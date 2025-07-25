@@ -3,7 +3,7 @@ class Solution {
      * @param {number[]} nums
      * @return {boolean}
      */
-    hasDuplicate(nums) {
+    hasDuplicate(nums: number[]): boolean {
         // take the first number
         for (let i = 0; i < nums.length; i++){
             let arr = nums.slice(i)
